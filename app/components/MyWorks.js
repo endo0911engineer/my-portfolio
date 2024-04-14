@@ -12,6 +12,7 @@ function MyWorks() {
                     <Link href="https://github.com/endo0911engineer/blog-with-microcms">
                         githubのコード
                     </Link>
+                    <br /><br />
                     <Link href="https://blog-with-microcms-deploy.vercel.app/">
                         プロジェクトのリンク
                     </Link>
@@ -22,6 +23,7 @@ function MyWorks() {
                     <Link href="https://github.com/endo0911engineer/otokomigaki-app">
                         githubのコード
                     </Link>
+                    <br /><br />
                     <Link href="https://otokomigaki-app.vercel.app/">
                         プロジェクトのリンク
                     </Link>
