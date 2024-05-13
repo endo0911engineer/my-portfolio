@@ -5,26 +5,21 @@ function MyWorks() {
     return (
         <div className={styles.myworks}>
             <h2>私の作品</h2>
-            <p>いずれもWeb系の勉強を始めてから約3ヶ月時点の作品になります。</p>
             <div className={styles.works}>
                 <div>
-                    <h3>アウトプット用ブログ</h3>
-                    <Link href="https://github.com/endo0911engineer/blog-with-microcms">
+                    <h3>学生時代に行っていた研究</h3>
+                    <Link href="https://github.com/endo0911engineer/Drone-communication-Wooden-structure-">
                         githubのコード
-                    </Link>
-                    <br /><br />
-                    <Link href="https://blog-with-microcms-deploy.vercel.app/">
-                        プロジェクトのリンク
                     </Link>
                 </div>
                 
                 <div>
-                    <h3>男磨き日記</h3>
-                    <Link href="https://github.com/endo0911engineer/otokomigaki-app">
+                    <h3>独学で作成したWebアプリ</h3>
+                    <Link href="https://github.com/endo0911engineer/react-matplotlib">
                         githubのコード
                     </Link>
                     <br /><br />
-                    <Link href="https://otokomigaki-app.vercel.app/">
+                    <Link href="https://react-matplotlib-ge9wl3g1l-shins-projects-57cbb163.vercel.app/">
                         プロジェクトのリンク
                     </Link>
                 </div>

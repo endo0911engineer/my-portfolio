@@ -12,6 +12,7 @@
   background-color: #121212;
   height: 80px;
   text-align: center;
+  margin-top: 0;
 }
 
 .header .title{
@@ -52,11 +53,34 @@
 .myworks p{
   text-align: center;
 }
+.myworks a{
+  text-decoration: none;
+}
 .myworks .works{
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
 }
-.myworks .works a{
-  margin-top: 10px;
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+
+  .header{
+    height: 60px;
+    margin-top: 0;
+  }
+
+  .header .title{
+    margin-top:30px;
+    font-size: 20px;
+  }
+  .aboutme {
+    padding-top: 80px; 
+  }
+
+  .myskill, .myworks {
+    margin-top: 50px; 
+  }
 }
